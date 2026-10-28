@@ -1,0 +1,14 @@
+# Pinned top-level dependencies, at the versions the reported results were produced with
+# (Python 3.12.13). Not a complete lockfile: transitive versions are not pinned.
+# torch: the results used the CUDA 13.0 build, 2.12.1+cu130, available with
+#   pip install torch==2.12.1+cu130 --index-url https://download.pytorch.org/whl/cu130
+# On a CPU-only machine install the same version from https://download.pytorch.org/whl/cpu.
+numpy==2.5.0
+pandas==3.0.3
+scipy==1.18.0
+scikit-learn==1.9.0
+lightgbm==4.7.0
+catboost==1.2.10
+torch==2.12.1
+plotly==7.0.0
+ipykernel==6.31.0
